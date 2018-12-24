@@ -9,8 +9,25 @@ public class CalculatriceServiceImpl implements CalculatriceService {
 	public OperationOut addition(OperationIn in) {
 		OperationOut result = null;
 		if(in != null){
+			int resultat = 0;
 			result = new OperationOut();
-			result.setResult(in.getFirstNumber() + in.getSecondNumber());
+			if(in.getOperator() != null){
+				switch (in.getOperator()){
+					case "+": resultat = in.getFirstNumber() + in.getSecondNumber();
+					break;
+					case "-": resultat = in.getFirstNumber() - in.getSecondNumber();
+					break;
+					case "*": resultat = in.getFirstNumber() * in.getSecondNumber();
+					break;
+					case "/": resultat = in.getFirstNumber() / in.getSecondNumber();
+					break;
+					default: resultat = in.getFirstNumber() + in.getSecondNumber();
+					break;
+				}
+			} else {
+				resultat = in.getFirstNumber() + in.getSecondNumber();
+			}
+			result.setResult(resultat);
 		}
 		return result;
 	}

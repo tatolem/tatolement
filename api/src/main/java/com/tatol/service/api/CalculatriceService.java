@@ -10,4 +10,6 @@ import com.tatol.vo.OperationOut;
 public interface CalculatriceService {
 	@WebMethod
 	public OperationOut addition(OperationIn in);
+	@WebMethod
+	public OperationOut soustraction(OperationIn in);
 }

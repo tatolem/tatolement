@@ -53,12 +53,12 @@
 			<dependency>
 				<groupId>com.tatol</groupId>
 				<artifactId>api</artifactId>
-				<version>${pom.version}</version>
+				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.tatol</groupId>
 				<artifactId>core</artifactId>
-				<version>${pom.version}</version>
+				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

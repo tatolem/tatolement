@@ -37,6 +37,7 @@ public class CalculatriceServiceImpl implements CalculatriceService {
 		if(in != null){
 			result = new OperationOut();
 			result.setResult(in.getFirstNumber() - in.getSecondNumber());
+			System.out.println("Resultat : "+result.getResult());
 		}
 		return result;
 	}

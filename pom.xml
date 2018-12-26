@@ -83,4 +83,9 @@
 	      <url>http://localhost:8081/repository/maven-releases/</url>
 	</repository>
 	</distributionManagement>
+	<scm>
+		<url>https://github.com/tatolem/tatolement</url>
+		<connection>scm:git:git://github.com/tatolem/tatolement.git</connection>
+		<developerConnection>scm:git:git@github.com:tatolem/tatolement.git</developerConnection>
+	</scm>
 </project>

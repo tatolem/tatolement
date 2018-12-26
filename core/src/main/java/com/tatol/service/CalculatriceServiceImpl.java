@@ -31,15 +31,5 @@ public class CalculatriceServiceImpl implements CalculatriceService {
 		}
 		return result;
 	}
-	
-	public OperationOut soustraction(OperationIn in) {
-		OperationOut result = null;
-		if(in != null){
-			result = new OperationOut();
-			result.setResult(in.getFirstNumber() - in.getSecondNumber());
-			System.out.println("Resultat : "+result.getResult());
-		}
-		return result;
-	}
 
 }

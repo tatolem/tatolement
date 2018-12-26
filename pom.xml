@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.tatol</groupId>
 	<artifactId>calculatrice</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.1-evolve-SNAPSHOT</version>
-	<name>calculatrice Maven Webapp</name>
+	<version>1.1-evovle-SNAPSHOT</version>
+	<name>calculatrice</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<cxf.version>3.2.7</cxf.version>
@@ -83,4 +82,10 @@
 	      <url>http://localhost:8081/repository/maven-releases/</url>
 	</repository>
 	</distributionManagement>
+	<scm>
+		<url>https://github.com/tatolem/tatolement</url>
+		<connection>scm:git:https://github.com/tatolem/tatolement.git</connection>
+		<developerConnection>scm:git:https://github.com/tatolem/tatolement.git</developerConnection>
+	  <tag>calculatrice-1.0.0</tag>
+  </scm>
 </project>

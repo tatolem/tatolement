@@ -3,7 +3,7 @@
 	<groupId>com.tatol</groupId>
 	<artifactId>calculatrice</artifactId>
 	<packaging>pom</packaging>
-	<version>1.2-evovle-SNAPSHOT</version>
+	<version>1.2-SNAPSHOT</version>
 	<name>calculatrice</name>
 	<url>http://maven.apache.org</url>
 	<properties>

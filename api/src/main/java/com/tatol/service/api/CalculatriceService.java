@@ -9,5 +9,5 @@ import com.tatol.vo.OperationOut;
 @WebService
 public interface CalculatriceService {
 	@WebMethod
-	public OperationOut addition(OperationIn in);
+	public OperationOut operation(OperationIn in);
 }

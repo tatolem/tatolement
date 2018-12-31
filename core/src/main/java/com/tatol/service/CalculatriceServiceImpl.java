@@ -10,7 +10,7 @@ public class CalculatriceServiceImpl implements CalculatriceService {
 
 	private static Logger logger = Logger.getLogger(CalculatriceServiceImpl.class);
 
-	public OperationOut addition(OperationIn in) {
+	public OperationOut operation(OperationIn in) {
 		OperationOut result = null;
 		if (in != null) {
 			int resultat = 0;
